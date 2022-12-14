@@ -1,0 +1,9 @@
+package com.webb.reggie.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.webb.reggie.entity.Setmeal;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface SetMealMapper extends BaseMapper<Setmeal> {
+}

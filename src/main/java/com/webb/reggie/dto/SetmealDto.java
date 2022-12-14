@@ -1,0 +1,16 @@
+package com.webb.reggie.dto;
+
+
+import com.webb.reggie.entity.Setmeal;
+import com.webb.reggie.entity.SetmealDish;
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class SetmealDto extends Setmeal {
+
+    private List<SetmealDish> setmealDishes;
+
+    private String categoryName;
+}
